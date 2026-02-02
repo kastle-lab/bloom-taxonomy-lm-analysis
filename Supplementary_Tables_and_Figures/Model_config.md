@@ -15,28 +15,30 @@ These defaults are consistent across models to support comparability with the st
 ### 1. Large Language Models (LLMs)
 
 #### 1.1 GPT-4 (`G4`)
-- **Provider:** OpenAI  
+- **Provider:** OpenAI
 - **Primary usage:** Question generation across all Bloom levels and prompt structures (PS1–PS5)
 
 #### 1.2 GPT-3.5 (`G3.5`)
-- **Provider:** OpenAI  
+- **Provider:** OpenAI
 - **Primary usage:** Question generation across all Bloom levels and prompt structures (PS1–PS5)
 
 #### 1.3 PaLM-2 (`P2`)
-- **Provider:** Google  
+- **Provider:** Google
 - **Primary usage:** Question generation across all Bloom levels and prompt structures (PS1–PS5)
 
 #### 1.4 LLaMA-2 (`L2`)
 - **Provider:** Meta
+- **Size:** 70B
 - **Primary usage:** Question generation across all Bloom levels and prompt structures (PS1–PS5)
 
 #### 1.5 Mistral 7B (`M`)
 - **Provider:** Mistral
+- **Size:** 7B
 - **Primary usage:** Question generation across all Bloom levels and prompt structures (PS1–PS5)
 
 #### 1.6 Gemini Pro (`GP`)
-- **Provider:** Google  
-- **Primary usage:** Model-as-a-judge / rubric-based evaluator for question quality and skill-match  
+- **Provider:** Google
+- **Primary usage:** Model-as-a-judge / rubric-based evaluator for question quality and skill-match
 
 ---
 
@@ -46,35 +48,43 @@ SLMs were selected for being **lightweight, open-weight, or locally deployable**
 
 #### 2.1 Granite 4 (`Gr4`)
 - **Provider:** IBM
-- **Primary usage:** Question generation + model-as-a-judge evaluator  
-
-#### 2.2 Phi-4 (`P4`)
-- **Provider:** Microsoft  
-- **Primary usage:** Question generation + model-as-a-judge evaluator  
+- **Size:** 3.4B
+- **Primary usage:** Question generation + model-as-a-judge evaluator
 
 #### 2.3 Phi-4 mini (`P4m`)
-- **Provider:** Microsoft  
-- **Primary usage:** Question generation + model-as-a-judge evaluator  
+- **Provider:** Microsoft
+- **Size:** 3.84B
+- **Primary usage:** Question generation + model-as-a-judge evaluator
 
 #### 2.4 LLaMA 3.2 (`L3.2`)
-- **Provider:** Meta  
-- **Primary usage:** Question generation + model-as-a-judge evaluator  
+- **Provider:** Meta
+- **Size:** 3.21B
+- **Primary usage:** Question generation + model-as-a-judge evaluator
 
 #### 2.4 Mistral Small 3.2 (`MS`)
-- **Provider:** Mistral  
+- **Provider:** Mistral
+- **Size:** 24B
 - **Primary usage:** Question generation + model-as-a-judge evaluator
 
 #### 2.5 GPT-OSS (`GO`)
-- **Provider:** OpenAI (open-weights / “OSS” configuration)  
-- **Primary usage:** Question generation + model-as-a-judge evaluator  
+- **Provider:** OpenAI (open-weights / “OSS” configuration)
+- **Size:** 20.9B
+- **Primary usage:** Question generation + model-as-a-judge evaluator
+
+#### 2.2 Phi-4 (`P4`)
+- **Provider:** Microsoft
+- **Size:** 14.7B
+- **Primary usage:** Question generation + model-as-a-judge evaluator
 
 #### 2.6 Deepseek R1 (`D1`)
-- **Provider:** Deepseek  
-- **Primary usage:** Question generation + model-as-a-judge evaluator  
+- **Provider:** Deepseek
+- **Size:** 14B
+- **Primary usage:** Question generation + model-as-a-judge evaluator
 
 #### 2.7 Gemma 3 (`Ge3`)
-- **Provider:** Google  
-- **Primary usage:** Question generation + model-as-a-judge evaluator  
+- **Provider:** Google
+- **Size:** 4.3B
+- **Primary usage:** Question generation + model-as-a-judge evaluator
 
 ---
 
