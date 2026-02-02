@@ -8,7 +8,7 @@ This repository contains code and data for evaluating small and large language m
   - **LLMs:** GPT-3.5, GPT-4, Mistral, LLaMA and PaLM 2.
   - **SLMs:** Deepseek R1, Gemma 3, Granite 4, Phi 4, Phi 4 mini, GPT-OSS, Mistral Small 3.2 and LLaMA 3.2 (smaller variants).
 
-  Additional parameter and configuration available [here]()
+  Additional parameter and configuration available [here](Supplementary_Tables_and_Figures/Model_config.md)
 
 - **Prompts:** 5 [Prompt Structures (PS)](Prompts/) per topic
 - **Topics**: 17 Machine Learning and Data Science topic, available [here](Supplementary_Tables_and_Figures/Topics.png)
@@ -22,11 +22,11 @@ This repository contains code and data for evaluating small and large language m
 
 ## Directory and File Overview
 * **Code/** — Helper python scripts and jupyter notebooks utilized for preprocessing, experimentation and analysis
-* **Evaluation/** — 
-* **Generation/** — 
+* **Evaluation/** — Results for Model-as-a-Judge analysis along with its evaluation metrics.
+* **Generation/** — Results for assessing question generative capabilites of SLMs and LLMs along with its evaluation metrics.
 * **Licenses/** — Licenses for the repository
 * **Prompts/** — Prompt templates used to generate responses from language models in experimentaion.
-* **Supplementary_Tables_and_Figures/** — .
+* **Supplementary_Tables_and_Figures/** — Supplementary materials for additional information on study and analysis performed.
 * `README.md` — Readme file for the repository
 
 ## License
