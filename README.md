@@ -1,4 +1,4 @@
-# bloom-taxonomy-llm-analysis [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# bloom-taxonomy-lm-analysis [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 This repository contains code and data for evaluating small and large language models (SLMs & LLMs) on the task of generating educational questions aligned with Bloom's Taxonomy. The evaluation considers semantic similarity, prompt complexity, and readability etc across multiple Bloom levels and topics.
 
